@@ -143,7 +143,6 @@ class PMAStandard_Sniffs_Commenting_FileCommentSniff implements PHP_CodeSniffer_
      *
      * @return void
      */
-COMPLEX METHOD
     public function process(PHP_CodeSniffer_File $phpcsFile, $stackPtr)
     {
         $this->currentFile = $phpcsFile;
@@ -326,7 +325,6 @@ COMPLEX METHOD
      *
      * @return void
      */
-COMPLEX METHOD
     protected function processTags($commentStart, $commentEnd)
     {
         $docBlock    = (get_class($this) === 'PMAStandard_Sniffs_Commenting_FileCommentSniff') ? 'file' : 'class';
@@ -560,7 +558,6 @@ COMPLEX METHOD
      *
      * @return void
      */
-DUPLICATION
     protected function processPackage($errorPos)
     {
         $package = $this->commentParser->getPackage();
@@ -600,7 +597,6 @@ DUPLICATION
      *
      * @return void
      */
-DUPLICATION
     protected function processSubpackage($errorPos)
     {
         $package = $this->commentParser->getSubpackage();
