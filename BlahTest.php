@@ -1,6 +1,6 @@
 <?php
 /**
- * Parses and verifies the doc comments for files.
+ * Parses and verifies the doc comments for files!
  *
  * PHP version 5
  *
