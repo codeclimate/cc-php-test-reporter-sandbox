@@ -15,4 +15,12 @@ class User {
     public function talk() {
         return "Hello world!";
     }
+    
+    public function talk1() {
+        return "Hello world!";
+    }
+    
+    public function talk2() {
+        return "Hello world!";
+    }
 }
