@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1413237722">
-  <project timestamp="1413237722">
+<coverage generated="1414694815">
+  <project timestamp="1414694815">
     <file name="/Users/jpowers/Documents/Git Repos/cc-php-test-reporter-sandbox/lib/User.php">
       <class name="User" namespace="global">
-        <metrics methods="3" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="1" elements="7" coveredelements="2"/>
+        <metrics methods="5" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="1" elements="11" coveredelements="2"/>
       </class>
       <line num="7" type="method" name="getName" crap="2" count="0"/>
       <line num="8" type="stmt" count="0"/>
@@ -12,8 +12,12 @@
       <line num="13" type="stmt" count="0"/>
       <line num="15" type="method" name="talk" crap="1" count="1"/>
       <line num="16" type="stmt" count="1"/>
-      <metrics loc="18" ncloc="16" classes="1" methods="3" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="1" elements="7" coveredelements="2"/>
+      <line num="19" type="method" name="talk1" crap="2" count="0"/>
+      <line num="20" type="stmt" count="0"/>
+      <line num="23" type="method" name="talk2" crap="2" count="0"/>
+      <line num="24" type="stmt" count="0"/>
+      <metrics loc="26" ncloc="24" classes="1" methods="5" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="1" elements="11" coveredelements="2"/>
     </file>
-    <metrics files="1" loc="18" ncloc="16" classes="1" methods="3" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="1" elements="7" coveredelements="2"/>
+    <metrics files="1" loc="26" ncloc="24" classes="1" methods="5" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="1" elements="11" coveredelements="2"/>
   </project>
 </coverage>
