@@ -5,7 +5,7 @@ php:
   - hhvm
   
 after_script:
-- CODECLIMATE_REPO_TOKEN=048ccb31817db93785c0b054a8cdd5b411cf8266ef082a8dc976b2b5e0e7f8ee ./vendor/bin/test-reporter
+- /home/travis/build/jonathancadepowers/cc-php-test-reporter-sandbox/vendor/bin/test-reporter
 
 addons:
     code_climate:
