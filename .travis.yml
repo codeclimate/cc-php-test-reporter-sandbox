@@ -5,5 +5,8 @@ php:
   - hhvm
   
 after_script:
-  - CODECLIMATE_REPO_TOKEN="048ccb31817db93785c0b054a8cdd5b411cf8266ef082a8dc976b2b5e0e7f8ee" bin/test-reporter --stdout > codeclimate.json
-  - curl -X POST -d @codeclimate.json -H 'Content-Type: application/json' -H 'User-Agent: Code Climate (PHP Test Reporter v0.1.1)' https://codeclimate.com/test_reports
+- CODECLIMATE_REPO_TOKEN=048ccb31817db93785c0b054a8cdd5b411cf8266ef082a8dc976b2b5e0e7f8ee /vendor/bin/test-reporter
+
+addons:
+    code_climate:
+        repo_token: 048ccb31817db93785c0b054a8cdd5b411cf8266ef082a8dc976b2b5e0e7f8ee
