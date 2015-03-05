@@ -1,2 +1,2 @@
-phptest
+PHP Testing Repo
 =======
