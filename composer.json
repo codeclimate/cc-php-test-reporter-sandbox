@@ -1,6 +1,12 @@
 {
+  "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/enygma/php-test-reporter"
+        }
+    ],
     "require-dev": {
         "phpunit/phpunit": "4.*",
-        "codeclimate/php-test-reporter": "dev-master"
+        "enygma/php-test-reporter": "dev-remove-curl"
     }
 }
