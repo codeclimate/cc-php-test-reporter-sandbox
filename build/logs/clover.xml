@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1414695316">
-  <project timestamp="1414695316">
+<coverage generated="1433369732">
+  <project timestamp="1433369732">
     <file name="/Users/jpowers/Documents/Git Repos/cc-php-test-reporter-sandbox/lib/User.php">
       <class name="User" namespace="global">
         <metrics methods="4" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="1" elements="9" coveredelements="2"/>
